@@ -1,0 +1,227 @@
+body {
+    background-color: #f0f2f5;
+}
+input#username {
+    font-family: apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #262626;
+    border: 1px solid #f0f2f5;
+    text-decoration: none solid rgb(38, 38, 38);
+}
+
+input#password {
+    font-family: apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #262626;
+    border: 1px solid #f0f2f5;
+    text-decoration: none solid rgb(38, 38, 38);
+}
+
+input[type="text"] {
+    border: 1px solid #f0f2f5;
+    color: rgb(29, 33, 41);
+    line-height: 16.08px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 3px;
+    width: 299px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    border: 1px solid #f0f2f5;
+    color: rgb(29, 33, 41);
+    line-height: 16.08px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 3px;
+    width: 299px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+form.login-form {
+    width: 85%;
+    height: 260px;
+}
+
+
+.container {
+    margin-top: 20px;
+}
+
+.col-sm-6 {
+    float: left;
+}
+
+.col-sm-6 {
+    margin-right: 50px;
+    position: relative;
+}
+
+img.background {
+    margin-left: 164px;
+    margin-top: 108px;
+    height: 515.84px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3rem;
+    font-size: 14px;
+}
+
+img.link-logo {
+    height: 45px;
+    margin-left: 20px;
+}
+
+p.get {
+    text-align: center;
+    margin-right: 36px;
+    margin-bottom: 15px;
+}
+
+.col.last-form.logo-photo {
+    display: contents;
+}
+
+.row.image {
+    padding-top: 600px;
+    margin-left: 35%;
+}
+
+.paragrapg {
+    margin-right: 56%;
+}
+
+.box {
+    /* max-width: 350px; */
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+    margin-left: 500px;
+}
+
+/* .heading {
+    margin: 22px auto 12px;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+} */
+img.insta.logo {
+    height: 51px;
+    width: 177px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.field {
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+
+
+.login-button {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #3897f0;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+}
+
+.separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+}
+
+/* >>>>>>>>>>>>>> OTHER USING IS FORGEPASSWORD/LOG IN WITH FACEBOOK <<<<<<<<<<<<<<< */
+.other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> */
+.fb-login-btn {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+    background: transparent;
+}
+
+.fb-icon {
+    color: #385185;
+    font-size: 1rem;
+    padding-right: 1px;
+}
+
+.forgot-password {
+    font-size: 11px;
+    color: #003569;
+}
+
+.signup {
+    color: #3897f0;
+    font-weight: 600;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+}
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}

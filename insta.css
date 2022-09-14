@@ -1,0 +1,424 @@
+html {
+    background-color: rgb(250, 250, 250);
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+}
+
+.phone {
+    padding-top: 70px;
+    height: 615px;
+    float: left;
+    margin: 10px;
+}
+
+img.background {
+    height: 400px;
+    position: absolute;
+}
+
+input#username {
+    font-family: apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #262626;
+    border: 1px solid #f0f2f5;
+    text-decoration: none solid rgb(38, 38, 38);
+}
+
+input#password {
+    font-family: apple-system, "system-ui", "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 16px;
+    background-color: rgb(255, 255, 255);
+    color: #262626;
+    border: 1px solid #f0f2f5;
+    text-decoration: none solid rgb(38, 38, 38);
+}
+
+input[type="text"] {
+    border: 1px solid #f0f2f5;
+    color: rgb(29, 33, 41);
+    line-height: 16.08px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 3px;
+    width: 299px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+input[type="password"] {
+    border: 1px solid #f0f2f5;
+    color: rgb(29, 33, 41);
+    line-height: 16.08px;
+    background-color: rgb(255, 255, 255);
+    padding: 12px 3px;
+    width: 299px;
+    border-radius: 3px;
+    margin-bottom: 10px;
+}
+
+form.login-form {
+    width: 85%;
+    height: 260px;
+}
+
+body {
+    border-color: #fafafa !important;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+.col-sm-6 {
+    float: left;
+}
+
+.col-sm-6 {
+    margin-right: 50px;
+    position: relative;
+}
+
+img.background {
+    margin-left: 164px;
+    margin-top: 108px;
+    height: 515.84px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.container {
+    max-width: 1000px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    margin-top: -3rem;
+    font-size: 14px;
+}
+
+img.link-logo {
+    height: 45px;
+    margin-left: 20px;
+}
+
+p.get {
+    text-align: center;
+    margin-right: 36px;
+    margin-bottom: 15px;
+}
+
+.col.last-form.logo-photo {
+    display: contents;
+}
+
+.box {
+    /* max-width: 350px; */
+    width: 360px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: #ffff;
+    border: 1px solid #e6e6e6;
+    border-radius: 1px;
+    margin: 0 0 10px;
+    padding: 10px 0;
+    flex-grow: 1;
+}
+
+/* .heading {
+    margin: 22px auto 12px;
+    background-image: url("https://www.instagram.com/static/bundles/es6/sprite_core_b20f2a3cd7e4.png/b20f2a3cd7e4.png");
+    background-position: -98px 0;
+    height: 51px;
+    width: 177px;
+    overflow: hidden;
+} */
+img.insta.logo {
+    height: 51px;
+    width: 177px;
+    padding-top: 34px;
+    padding-bottom: 34px;
+}
+
+.field {
+    margin: 10px 0;
+    position: relative;
+    font-size: 14px;
+    width: 100%;
+    text-overflow: ellipsis;
+}
+
+
+
+.login-button {
+    text-align: center;
+    width: 100%;
+    padding: 0.5rem;
+    border: 1px solid transparent;
+    background-color: #a1c6ea;
+    color: #fff;
+    font-weight: 600;
+    font-size: 14px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+.separator {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #999;
+    margin-top: 6px;
+}
+
+.separator .line {
+    height: 1px;
+    width: 40%;
+    background-color: #dbdbdb;
+}
+
+/* >>>>>>>>>>>>>> OTHER USING IS FORGEPASSWORD/LOG IN WITH FACEBOOK <<<<<<<<<<<<<<< */
+.other {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+}
+
+/* >>>>>>>>>>>>>>>>>>>>>>>> */
+.fb-login-btn {
+    margin: 1rem;
+    border: 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #385185;
+    font-weight: 600;
+    background: transparent;
+}
+
+.fb-icon {
+    color: #385185;
+    font-size: 1rem;
+    padding-right: 1px;
+}
+
+.forgot-password {
+    font-size: 11px;
+    color: #003569;
+}
+
+.signup {
+    color: #3897f0;
+    font-weight: 600;
+}
+
+.fade-in-image {
+    animation: fadeIn 5s;
+}
+
+/* FOOTER */
+.footer {
+    background-color: #fafafa;
+    order: 5;
+    padding: 0 20px;
+    background: #fafafa;
+}
+
+.footer-container {
+    flex-direction: row;
+    flex-wrap: wrap;
+    background-color: #fafafa;
+    justify-content: space-between;
+    padding: 38px 0;
+    max-width: 935px;
+    font-size: 12px;
+
+    margin: 0 auto;
+    /* text-transform: uppercase; */
+    width: 100%
+}
+
+.footer-container {
+    word-spacing: 9px;
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif;
+    text-align: center;
+    margin-top: -34px;
+}
+
+.footer-nav {
+    max-width: 100%;
+}
+
+.footer-nav ul {
+    margin-right: 16px;
+    margin-bottom: 3px;
+    flex-grow: 1;
+}
+
+.footer-nav ul li {
+    display: inline-block;
+    margin-right: 13px;
+    margin-bottom: 7px;
+}
+
+.footer-nav ul li a {
+
+    text-decoration: none;
+}
+
+a {
+    color: #8e8e8e;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 18px;
+}
+
+.footer span {
+    color: #999;
+}
+
+span.language {
+
+    cursor: pointer;
+    display: inline-block;
+    font-weight: 600;
+    position: relative;
+    text-transform: uppercase;
+    vertical-align: top;
+}
+
+.select {
+    cursor: pointer;
+    height: 100%;
+    top: 0;
+    opacity: 0;
+    position: absolute;
+    left: 0;
+    width: 100%;
+}
+
+/* Media Queries */
+@media (max-width:450px) {
+
+
+
+
+
+    .main {
+        background-color: #fff;
+    }
+
+    .content {
+        max-width: 100%;
+        margin-top: 0;
+        justify-content: space-between;
+    }
+
+    .login-box {
+        background-color: transparent;
+        border: none;
+    }
+
+    .logo {
+        background: cover no-repeat;
+        width: 175px;
+        height: auto;
+        margin: 0 auto;
+    }
+
+    .btn {
+        cursor: pointer;
+        width: 100%;
+        padding: 0 8px;
+        background: #3897f0;
+        border: 1px solid #3897f0;
+        color: #fff;
+        border-radius: 3px;
+        font-weight: 600;
+        font-size: 14px;
+        height: 28px;
+        line-height: 26px;
+        outline: none;
+        white-space: nowrap;
+    }
+
+    .input-box {
+        border: 1px solid #efefef;
+        border-radius: 3px;
+        height: 36px;
+        background: #fafafa;
+        position: relative;
+    }
+
+    input {
+        border: 0;
+        background-color: #fafafa;
+        width: 100%;
+        font-size: 12px;
+        margin: 0;
+        padding: 9px 0 7px 8px;
+        outline: none;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        box-sizing: border-box;
+    }
+
+    .input-box:hover,
+    .input-box:focus {
+        border-color: #bbb;
+    }
+
+}
+
+@media only screen and (max-width:875px) {
+    .footer-container {
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .footer-container,
+    .footer-nav ul {
+        justify-content: center;
+        margin: 0 auto;
+        max-width: 360px;
+        min-width: auto;
+        -webkit-box-pack: center;
+        -moz-box-pack: center;
+    }
+
+
+}
+
+@media only screen and (max-width:320px) {
+    .col-sm-6 {
+        margin-right: 11px;
+        position: relative;
+    }
+
+    .box {
+        margin-left: 60px;
+    }
+}
+
+
+
+
+
+
+
+@keyframes fadeIn {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
